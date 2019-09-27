@@ -63,3 +63,5 @@ want to display so it doesn't display them as objects
 - origin
 - departure time
 - duration
+
+#### Could add a parent class of aircraft for plane
