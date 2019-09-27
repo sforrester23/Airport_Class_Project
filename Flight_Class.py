@@ -1,9 +1,6 @@
-from Plane_Class import *
+class Flight():
 
-class Flight(Plane):
-
-    def __init__(self, model_number, capacity, flight_ID, destination, origin, departure_time, duration):
-        super().__init__(model_number, capacity)
+    def __init__(self, flight_ID, destination, origin, departure_time, duration):
         self.flight_ID = flight_ID
         self.destination = destination
         self.origin = origin
