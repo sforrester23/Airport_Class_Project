@@ -6,3 +6,8 @@ class Flight():
         self.origin = origin
         self.departure_time = departure_time
         self.duration = duration
+
+    def list_flights(self):
+        return 'Flight {} from {} to {} is departing at {} and takes {} hours.'. format(self.flight_ID, self.origin, self.destination, self.departure_time, self.duration)
+
+
