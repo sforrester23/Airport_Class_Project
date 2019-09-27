@@ -1,3 +1,5 @@
+from Flight_Class import *
+
 class People():
     # Define the attributes for people
     def __init__(self, first_name, last_name, age, email, phone_number):
@@ -6,3 +8,4 @@ class People():
         self.age = age
         self.email - email
         self.phone_number = phone_number
+
